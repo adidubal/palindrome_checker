@@ -41,10 +41,10 @@ def main():
 		# Check if string is equal to the reversed string.
 		if reversed_string == string:
 			# The string is a palidrome.
-			print "yes"
+			print "Given string is a pallindrome..."
 		else:
 			# The string is not a palidrome.
-			print "no"
+			print "No, not a pallindrome.."
 		return 0
 	except:
 		print "unknown error, usage: %s [string]" % sys.argv[0]
